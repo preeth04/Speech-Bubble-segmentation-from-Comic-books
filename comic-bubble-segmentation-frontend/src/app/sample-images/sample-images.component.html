@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div>
+    <app-heading [title]="'Sample Images'"></app-heading>
+  </div>
+  <div *ngIf="loader">
+    <app-loader [loaderMessage]="loaderMessage"></app-loader>
+  </div>
+  <div *ngIf="!loader" class="image-container">
+    <img *ngFor="let image of sampleImages" [src]="image.src" alt="" width="200px" height="300px"
+      (click)="clickedImage(image.fileName)" class="sampleImage">
+  </div>
+</div>

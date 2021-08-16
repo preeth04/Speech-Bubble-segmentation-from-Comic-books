@@ -1,0 +1,25 @@
+<div *ngIf="loader">
+  <app-loader [loaderMessage]="'Loading'"></app-loader>
+</div>
+<div class="directory-wrapper" style="color: white" *ngIf="!loader">
+  <div class="current-directory-path">
+    <p class="current-path-text">
+      {{ formattedCurrentDirectoryPath }}
+      <i *ngIf="stack.getLength() > 0" class="fa fa-undo goBackIcon" (click)="goBack()"></i>
+    </p>
+  </div>
+  <div class="directory-content-wrapper">
+    <p style="color: white; font-size: 30px;" *ngIf="folders.length == 0 && files.length == 0">
+      No files and folders to display
+    </p>
+    <div *ngFor="let folder of folders" class="folderWrapper" (click)="clickedFolder('//' + folder)">
+      <i class="fa fa-folder icon"></i>
+      <p>{{ folder }}</p>
+    </div>
+    <div *ngFor="let file of files" class="fileWrapper" (click)="clickedFile('//' + file)">
+      <!-- <i class="fa fa-image icon"></i> -->
+      <i class="fa fa-file icon"></i>
+      <p>{{ file }}</p>
+    </div>
+  </div>
+</div>
