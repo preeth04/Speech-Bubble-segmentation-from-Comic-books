@@ -40,5 +40,7 @@ Extractec Bubble | Text
 |  <img  src="https://github.com/preeth04/Speech-Bubble-segmentation-from-Comic-books/blob/master/comic-bubble-segmentation/sample_images/Sample%20Output/05_19_2021_20-44-34-252844/panel0/segmented_bubbles/cropped_imgs1.png"> | [`YOU CAN HELP PROVIDED YOU STAY OUT OF MY WAY`](https://github.com/preeth04/Speech-Bubble-segmentation-from-Comic-books/blob/master/comic-bubble-segmentation/sample_images/Sample%20Output/05_19_2021_20-44-34-252844/panel0/extracted_text.txt) |
 
 
+## Acknowledgement
 
+Special thanks to my team [@paarshan4800](https://github.com/paarshan4800) and [@akashkirthik](https://github.com/akashkirthik) for developing this application as a part of my Creative and Innovative project :heart:
 
