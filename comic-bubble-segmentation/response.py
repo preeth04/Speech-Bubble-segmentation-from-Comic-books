@@ -26,7 +26,7 @@ ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "gif"}
 
 # ----------------IMPORTANT CHANGE----------------
 pytesseract.pytesseract.tesseract_cmd = (
-    "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+    "C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe"
 )
 
 

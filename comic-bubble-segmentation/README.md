@@ -1,7 +1,7 @@
 # Detection and Segmentation of Speech Bubbles from Comic Images
 Speech Bubbles in comic images are segmented and its text are extracted.
 
-This repository contains the server part of the project developed using Python Flask. You can find the UI code [here](https://github.com/paarshan4800/comic-bubble-segmentation-frontend).
+This repository contains the server part of the project developed using Python Flask. You can find the UI code [here](https://github.com/preeth04/Speech-Bubble-segmentation-from-Comic-books/blob/master/comic-bubble-segmentation-frontend).
 
 
 ## Setup

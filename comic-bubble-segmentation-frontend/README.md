@@ -1,7 +1,7 @@
 # Detection and Segmentation of Speech Bubbles from Comic Images
 Speech Bubbles in comic images are segmented and its text are extracted.
 
-This repository contains the UI part of the project developed using Angular. You can find the server code [here](https://github.com/paarshan4800/comic-bubble-segmentation).
+This repository contains the UI part of the project developed using Angular. You can find the server code [here](https://github.com/preeth04/Speech-Bubble-segmentation-from-Comic-books/blob/master/comic-bubble-segmentation).
 
 
 ## Setup
